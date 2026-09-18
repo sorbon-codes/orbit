@@ -1,0 +1,222 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.hero {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero button :hover {
+    background-color: violet;
+    border-radius: 8px;
+}
+
+.hero-button {
+    padding: 8px;
+    width: 124px;
+    background-color: indigo;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-button :hover {
+    background-color: violet;
+    border-radius: 8px;
+}
+
+
+.isl {
+    margin-top: 120px;
+    margin-bottom: 120px;
+} 
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+
+.card {
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 400px;
+}
+
+.card img {
+    width: 98%;
+}
+
+.isl h2 {
+    text-align: center;
+} 
+
+.isl p {
+    text-align: center;
+
+}
+
+.eks {
+    text-align: center;
+}
+
+.eks-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+
+}
+
+.eks-card {
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.eks-card img {
+    width: 98%;
+}
+
+.stats {
+    text-align: center;
+}
+
+.st-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+
+}
+
+.st-card {
+    border: 1px solid black;
+    padding: 8px;
+    width: 220px;
+    height:80px;
+    border-radius: 12px;
+}
+
+.stats {
+        margin-top: 120px;
+        margin-bottom: 120px;
+}
+
+
+.sob {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}   
+
+.meros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.mero {
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.mero button {
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: cadetblue;
+    border-radius: 8px;
+}
+
+@media (max-width:480pc) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+    nav {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .st-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        gap: 8px;
+    }
+    .meros {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+    .right img {
+        width: 90%;
+    }
+    .hero {
+        text-align: center;
+    }
+
+    .left {
+        text-align: center;
+        align-items: center;
+    }
+}
